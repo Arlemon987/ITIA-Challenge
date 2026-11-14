@@ -3,3 +3,9 @@
 
 .header-right{display:flex;align-items:center;gap:18px}.session-profile{display:flex;align-items:center;gap:8px;padding:5px 10px 5px 5px;border:1px solid #79526b;border-radius:30px;background:#27202b;color:#fff;font-size:12px;font-weight:bold}.session-profile img,.cardprofile img{width:30px;height:30px;border-radius:50%;object-fit:cover;background:#ff82bd}.session-profile img.avatar-fallback{display:none}.username-label{display:block;color:#ffb6d7;font-size:10px;font-weight:bold;letter-spacing:1.5px;margin:25px 0 8px}.username-entry{display:flex;align-items:center;gap:10px;max-width:420px;padding:0 14px;border:1px solid #625064;border-radius:11px;background:#272530;color:#ff82bd}.username-entry span{font-weight:bold}.username-entry input{width:100%;padding:15px 0;border:0;outline:0;background:transparent;color:#fff;font-size:15px}.username-help{display:block;margin-top:8px;color:#999;font-size:11px}.cardprofile{display:flex;align-items:center;gap:12px;margin-top:22px;color:#fff;font-size:17px}.cardprofile img{width:54px;height:54px;border:2px solid #ff82bd}.cardprofile img.avatar-fallback{display:none}.carddeveloper{display:inline-block;margin-top:9px;color:#fff}.carddeveloper a{color:#ffb6d7;text-decoration:none;font-weight:bold}
 @media(max-width:520px){.header-right{align-items:flex-end;flex-direction:column;gap:8px}.session-profile{font-size:10px}.cardprofile{font-size:14px}}
+
+.option:disabled{cursor:not-allowed;opacity:.82}
+.option.locked:not(.selected){opacity:.48}
+.option.selected{border-color:#ff82bd;box-shadow:0 0 0 1px #ff82bd,0 0 18px #ff82bd44}
+.retry-message{font-weight:700;color:#ff9acb;padding:12px 14px;border-left:3px solid #ff82bd;background:#ff82bd12;border-radius:8px}
+.username-help.error{color:#ff8b8b}
